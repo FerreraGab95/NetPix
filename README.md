@@ -28,7 +28,7 @@ string payload = pixGenerator.GerarPayload(emvqr);
 //Retorna uma Bitmap(System.Drawing.Bitmap) da imagem do QR Code.
 Bitmap imagem = pixGenerator.GerarQRCode(emvqr)
 
-//Exporta a imagem do QR Code no formato BMP;.
+//Exporta a imagem do QR Code no formato BMP.
 pixGenerator.ExportarQRCode(emvqr, [DiretorioQRCode]);
 
 ```
